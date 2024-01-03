@@ -22,8 +22,10 @@ Untuk back end, kami menggunakan _Laravel_ sebagai framework yang powerfull yang
 Untuk membuat file repository, gunakan perintah berikut
 ```console
 php artisan make:repository {nama model}
-// contoh
-php artisan make:repository Book
+```
+contoh
+```console
+php artisan make:repository User
 ```
 
 ## Kontribusi
