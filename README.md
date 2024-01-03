@@ -17,9 +17,8 @@ Untuk back end, kami menggunakan _Laravel_ sebagai framework yang powerfull yang
 
 ## Fitur proyek
 
-### Membuat file repository
-
-`php artisan make:repository {nama model}`
+Untuk membuat file repository, gunakan perintah berikut
+```php artisan make:repository {nama model}```
 
 ## Kontribusi
 
