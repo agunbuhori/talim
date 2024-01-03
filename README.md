@@ -15,6 +15,7 @@ Untuk back end, kami menggunakan _Laravel_ sebagai framework yang powerfull yang
 -   Manajemen siswa
 -   Manajemen SKS
 -   Manajemen nilai
+-   Manajemen staff
 
 ## Fitur proyek
 
