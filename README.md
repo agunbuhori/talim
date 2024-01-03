@@ -6,7 +6,7 @@ Talim adalah proyek edukasi open source yang dapat dimanfaatkan siapapun untuk m
 
 Untuk back end, kami menggunakan _Laravel_ sebagai framework yang powerfull yang bisa menciptakan segala kebutuhan dalam satu tempat.
 
-## Fitur-fitur utama
+## Fitur-fitur aplikasi
 
 -   Manajemen yayasan
 -   Manajemen fakultas
@@ -16,6 +16,23 @@ Untuk back end, kami menggunakan _Laravel_ sebagai framework yang powerfull yang
 -   Manajemen SKS
 -   Manajemen nilai
 -   Manajemen staff
+
+## Setup proyek
+
+### Clone
+Pastikan environment sudah terinstall *PHP* dan *MySQL*
+```console
+git clone https://github.com/agunbuhori/talim.git 
+cd talim && composer install
+```
+Lakukan setup awal
+```console
+php artisan migrate --seed
+```
+Jalankan aplikasi dengan command berikut
+```console
+php artisan serve
+```
 
 ## Fitur proyek
 
